@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/../include/QRobotController.h
+libusb-1.0/libusb.h
+-
+cstdio
+-
+
+/home/szy/文档/CMake_Project/src/main/QRobotController.cpp
+../include/QRobotController.h
+/home/szy/文档/CMake_Project/src/main/../include/QRobotController.h
+iostream
+-
+

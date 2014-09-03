@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT (ROBOT)
+SET(CMAKE_C_COMPILER g++)
+ADD_SUBDIRECTORY (src)
+
